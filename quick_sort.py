@@ -38,6 +38,17 @@ def quickSort(arr):
 
 
 if __name__ == '__main__':
-    for i in range(1,6):
+    for i in range(1,8):
         sortList = createList(i)
         print(counter(quickSort, sortList))
+'''
+9.299999874201603e-06
+5.130000045028282e-05
+0.0006465000005846377
+0.007842099999834318
+0.09342540000034205
+1.0357684000000518
+15.6735077000003
+'''
+
+
